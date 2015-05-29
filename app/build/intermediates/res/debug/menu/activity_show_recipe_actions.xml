@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--&lt;!&ndash; Add new &ndash;&gt;-->
+    <!--<item android:id="@+id/action_new"-->
+          <!--android:icon="@drawable/ic_action_new"-->
+          <!--android:title="@string/action_new"-->
+          <!--android:showAsAction="always" />-->
+    <!--&lt;!&ndash;android:showAsAction="never" />&ndash;&gt;-->
+
+    <!-- edit-->
+    <item android:id="@+id/action_edit"
+          android:icon="@drawable/ic_action_edit"
+          android:title="@string/action_edit"
+          android:checkable="true"
+          android:showAsAction="never" />
+
+    <!--android:showAsAction="never" />-->
+
+    <!--add to favourites-->
+    <item android:id="@+id/action_add_to_fav"
+          android:icon="@drawable/ic_action_favorite_dark"
+          android:title="@string/action_add_to_fav"
+          android:checkable="true"
+          android:showAsAction="always" />
+
+    <item android:id="@+id/action_new"
+          android:icon="@drawable/ic_action_new"
+          android:title="Dodaj składnik"
+          android:showAsAction="never" />
+
+    <item android:id="@+id/action_save"
+        android:title="@string/action_save"
+        android:checkable="true"
+        android:showAsAction="never" />
+
+
+</menu><!-- From: file:/D:/Programowanie/Android/AndroidStudioProjects/MyCookBook/app/src/main/res/menu/activity_show_recipe_actions.xml -->

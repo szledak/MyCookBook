@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <!-- save-->
+    <item android:id="@+id/action_save"
+          android:icon="@drawable/ic_action_save"
+          android:title="@string/action_save"
+          android:showAsAction="always" />
+
+    <!--&lt;!&ndash;add to favourites&ndash;&gt;-->
+    <!--<item android:id="@+id/action_add_to_fav"-->
+          <!--android:icon="@drawable/ic_action_favorite_dark"-->
+          <!--android:title="@string/action_add_to_fav"-->
+          <!--android:checkable="true"-->
+          <!--android:showAsAction="always" />-->
+
+    <item android:id="@+id/action_new"
+          android:icon="@drawable/ic_action_new1"
+          android:title="Dodaj składnik"
+          android:showAsAction="always"
+          android:enabled="false"/>
+</menu>

@@ -1,0 +1,238 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\inspectionProfiles\
+* .idea\inspectionProfiles\Project_Default.xml
+* .idea\inspectionProfiles\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* MyCookBook.iml
+* ant.properties
+* build.xml
+* out\
+* out\production\
+* out\production\MyCookBook\
+* out\production\MyCookBook\MyCookBook.apk
+* out\production\MyCookBook\MyCookBook.unaligned.apk
+* out\production\MyCookBook\com\
+* out\production\MyCookBook\com\example\
+* out\production\MyCookBook\com\example\MyCookBook\
+* out\production\MyCookBook\com\example\MyCookBook\AddIngredientActivity$1.class
+* out\production\MyCookBook\com\example\MyCookBook\AddIngredientActivity$GetIngTask.class
+* out\production\MyCookBook\com\example\MyCookBook\AddIngredientActivity.class
+* out\production\MyCookBook\com\example\MyCookBook\AddRecipeActivity.class
+* out\production\MyCookBook\com\example\MyCookBook\CalculatorActivity$1.class
+* out\production\MyCookBook\com\example\MyCookBook\CalculatorActivity$2.class
+* out\production\MyCookBook\com\example\MyCookBook\CalculatorActivity$3.class
+* out\production\MyCookBook\com\example\MyCookBook\CalculatorActivity$GetCalcTask.class
+* out\production\MyCookBook\com\example\MyCookBook\CalculatorActivity.class
+* out\production\MyCookBook\com\example\MyCookBook\ExpandableHeightListView.class
+* out\production\MyCookBook\com\example\MyCookBook\FavouritesActivity$1.class
+* out\production\MyCookBook\com\example\MyCookBook\FavouritesActivity$GetRecTask.class
+* out\production\MyCookBook\com\example\MyCookBook\FavouritesActivity.class
+* out\production\MyCookBook\com\example\MyCookBook\MyActivity.class
+* out\production\MyCookBook\com\example\MyCookBook\ProductsActivity$1.class
+* out\production\MyCookBook\com\example\MyCookBook\ProductsActivity.class
+* out\production\MyCookBook\com\example\MyCookBook\RecipesActivity$1.class
+* out\production\MyCookBook\com\example\MyCookBook\RecipesActivity.class
+* out\production\MyCookBook\com\example\MyCookBook\SearchRecipeActivity$1.class
+* out\production\MyCookBook\com\example\MyCookBook\SearchRecipeActivity$2.class
+* out\production\MyCookBook\com\example\MyCookBook\SearchRecipeActivity$3.class
+* out\production\MyCookBook\com\example\MyCookBook\SearchRecipeActivity$4.class
+* out\production\MyCookBook\com\example\MyCookBook\SearchRecipeActivity$5.class
+* out\production\MyCookBook\com\example\MyCookBook\SearchRecipeActivity$GetRecSearchTask.class
+* out\production\MyCookBook\com\example\MyCookBook\SearchRecipeActivity.class
+* out\production\MyCookBook\com\example\MyCookBook\ShowRecipeActivity$1.class
+* out\production\MyCookBook\com\example\MyCookBook\ShowRecipeActivity$GetIngTask.class
+* out\production\MyCookBook\com\example\MyCookBook\ShowRecipeActivity.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\
+* out\production\MyCookBook\com\example\MyCookBook\adapter\AutoTextListAdapter$1.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\AutoTextListAdapter$ViewHolder.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\AutoTextListAdapter$myFilter.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\AutoTextListAdapter.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\CalcListAdapter$1.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\CalcListAdapter$ViewHolder.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\CalcListAdapter.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\FavListAdapter$1.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\FavListAdapter$ViewHolder.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\FavListAdapter.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\IngListAdapter$1.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\IngListAdapter$ViewHolder.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\IngListAdapter.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\ProdListAdapter$1.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\ProdListAdapter$ViewHolder.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\ProdListAdapter$myFilter.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\ProdListAdapter.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\ProductsTabsPagerAdapter.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\RecListAdapter$1.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\RecListAdapter$ViewHolder.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\RecListAdapter.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\RecipesTabsPagerAdapter.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\SearchAutoCompListAdapter$1.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\SearchAutoCompListAdapter$ViewHolder.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\SearchAutoCompListAdapter$myFilter.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\SearchAutoCompListAdapter.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\SearchListAdapter$1.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\SearchListAdapter$ViewHolder.class
+* out\production\MyCookBook\com\example\MyCookBook\adapter\SearchListAdapter.class
+* out\production\MyCookBook\com\example\MyCookBook\calculator\
+* out\production\MyCookBook\com\example\MyCookBook\calculator\CalcProdUpdateDialogFragment$1.class
+* out\production\MyCookBook\com\example\MyCookBook\calculator\CalcProdUpdateDialogFragment$2.class
+* out\production\MyCookBook\com\example\MyCookBook\calculator\CalcProdUpdateDialogFragment$CalcProdUpdateDialogFragmentListener.class
+* out\production\MyCookBook\com\example\MyCookBook\calculator\CalcProdUpdateDialogFragment.class
+* out\production\MyCookBook\com\example\MyCookBook\calculator\CalcProduct$1.class
+* out\production\MyCookBook\com\example\MyCookBook\calculator\CalcProduct.class
+* out\production\MyCookBook\com\example\MyCookBook\database\
+* out\production\MyCookBook\com\example\MyCookBook\database\CalcProductDAO.class
+* out\production\MyCookBook\com\example\MyCookBook\database\DatabaseDAO.class
+* out\production\MyCookBook\com\example\MyCookBook\database\DatabaseHelper.class
+* out\production\MyCookBook\com\example\MyCookBook\database\IngredientDAO.class
+* out\production\MyCookBook\com\example\MyCookBook\database\IngredientUnitDAO.class
+* out\production\MyCookBook\com\example\MyCookBook\database\ProductDAO.class
+* out\production\MyCookBook\com\example\MyCookBook\database\ProductTypeDAO.class
+* out\production\MyCookBook\com\example\MyCookBook\database\Queries.class
+* out\production\MyCookBook\com\example\MyCookBook\database\RecipeDAO.class
+* out\production\MyCookBook\com\example\MyCookBook\database\RecipeTypeDAO.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\IngAddDialogFragment$1.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\IngAddDialogFragment$2.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\IngAddDialogFragment$3.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\IngAddDialogFragment$IngAddDialogFragmentListener.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\IngAddDialogFragment.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\IngUpdateDialogFragment$1.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\IngUpdateDialogFragment$2.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\IngUpdateDialogFragment$3.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\IngUpdateDialogFragment$IngUpdateDialogFragmentListener.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\IngUpdateDialogFragment.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\Ingredient$1.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\Ingredient.class
+* out\production\MyCookBook\com\example\MyCookBook\ingredient\IngredientUnit.class
+* out\production\MyCookBook\com\example\MyCookBook\products\
+* out\production\MyCookBook\com\example\MyCookBook\products\FCereal$1.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FCereal$GetProdTask.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FCereal.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FDairy$1.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FDairy$GetProdTask.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FDairy.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FFruit$1.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FFruit$GetProdTask.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FFruit.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FMeat$1.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FMeat$GetProdTask.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FMeat.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FOthers$1.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FOthers$GetProdTask.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FOthers.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FSweets$1.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FSweets$GetProdTask.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FSweets.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FVegetable$1.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FVegetable$GetProdTask.class
+* out\production\MyCookBook\com\example\MyCookBook\products\FVegetable.class
+* out\production\MyCookBook\com\example\MyCookBook\products\ProdAddDialogFragment$1.class
+* out\production\MyCookBook\com\example\MyCookBook\products\ProdAddDialogFragment$2.class
+* out\production\MyCookBook\com\example\MyCookBook\products\ProdAddDialogFragment$ProdAddFragmentListener.class
+* out\production\MyCookBook\com\example\MyCookBook\products\ProdAddDialogFragment.class
+* out\production\MyCookBook\com\example\MyCookBook\products\ProdListFragment$GetProdTask.class
+* out\production\MyCookBook\com\example\MyCookBook\products\ProdListFragment.class
+* out\production\MyCookBook\com\example\MyCookBook\products\ProdUpdateDialogFragment$1.class
+* out\production\MyCookBook\com\example\MyCookBook\products\ProdUpdateDialogFragment$2.class
+* out\production\MyCookBook\com\example\MyCookBook\products\ProdUpdateDialogFragment$ProdUpdateDialogFragmentListener.class
+* out\production\MyCookBook\com\example\MyCookBook\products\ProdUpdateDialogFragment.class
+* out\production\MyCookBook\com\example\MyCookBook\products\Product$1.class
+* out\production\MyCookBook\com\example\MyCookBook\products\Product.class
+* out\production\MyCookBook\com\example\MyCookBook\products\ProductType.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FDessert$1.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FDessert$2.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FDessert$GetRecTask.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FDessert.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FMainCourse$1.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FMainCourse$2.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FMainCourse$GetRecTask.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FMainCourse.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FSalad$1.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FSalad$2.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FSalad$GetRecTask.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FSalad.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FSoup$1.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FSoup$2.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FSoup$GetRecTask.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FSoup.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FStarter$1.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FStarter$2.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FStarter$GetRecTask.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\FStarter.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\Recipe$1.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\Recipe.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\RecipeType$1.class
+* out\production\MyCookBook\com\example\MyCookBook\recipes\RecipeType.class
+* out\production\MyCookBook\info\
+* out\production\MyCookBook\info\androidhive\
+* out\production\MyCookBook\info\androidhive\actionbar\
+* out\production\MyCookBook\info\androidhive\actionbar\BuildConfig.class
+* out\production\MyCookBook\info\androidhive\actionbar\R$attr.class
+* out\production\MyCookBook\info\androidhive\actionbar\R$color.class
+* out\production\MyCookBook\info\androidhive\actionbar\R$dimen.class
+* out\production\MyCookBook\info\androidhive\actionbar\R$drawable.class
+* out\production\MyCookBook\info\androidhive\actionbar\R$id.class
+* out\production\MyCookBook\info\androidhive\actionbar\R$layout.class
+* out\production\MyCookBook\info\androidhive\actionbar\R$menu.class
+* out\production\MyCookBook\info\androidhive\actionbar\R$string.class
+* out\production\MyCookBook\info\androidhive\actionbar\R$xml.class
+* out\production\MyCookBook\info\androidhive\actionbar\R.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:20.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

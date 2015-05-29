@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/list_item_bg"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/autoCompleteTextView4" android:hint="Nazwa składnika..."
+            android:inputType="textCapSentences"/>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.04">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ilość:"
+                android:id="@+id/textView"
+                android:textColor="#330000" android:layout_alignBottom="@+id/editText3"
+                android:layout_toLeftOf="@+id/spinner2" android:layout_toStartOf="@+id/spinner2"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:hint="Ilość..."
+                android:layout_alignParentTop="true" android:layout_toRightOf="@+id/textView"
+                android:maxLength="4" android:layout_marginLeft="20dp" android:layout_alignRight="@+id/spinner2"
+                android:layout_alignEnd="@+id/spinner2"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Jednostka:"
+                android:id="@+id/textView2"
+                android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" android:layout_below="@+id/textView"
+                android:layout_marginTop="20dp" android:textColor="#330000" android:layout_marginLeft="10dp"/>
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner2"
+                android:layout_alignBottom="@+id/textView2" android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" android:layout_toRightOf="@+id/textView2"
+                android:layout_below="@+id/editText3" android:layout_marginLeft="20dp"
+                android:layout_marginRight="150dp"/>
+    </RelativeLayout>
+    <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_action_new1"
+            android:id="@+id/im_view_add"
+            android:layout_gravity="center_horizontal"/>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="369dp"
+            android:id="@+id/listView2"/>
+</LinearLayout>

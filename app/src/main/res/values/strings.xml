@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyCookBook</string>
+    <string name="search_hint">Szukaj przepisu</string>
+
+    <!--action bar icons-->
+    <string name="action_new">Dodaj</string>
+    <string name="action_search">Search</string>
+    <string name="action_help">Pomoc</string>
+    <string name="action_remove">Usuń</string>
+    <string name="action_remove_all">Usuń wszystko</string>
+    <string name="action_edit">Edytuj</string>
+    <string name="action_save">Zapisz</string>
+    <string name="add_prod">Dodaj produkt</string>
+    <string name="update_prod">Edycja produktu</string>
+    <string name="name">Nazwa</string>
+    <string name="kcal">kcal</string>
+    <string name="update">Zapisz</string>
+    <string name="add">Dodaj</string>
+    <string name="reset">Reset</string>
+    <string name="save">Zapisz</string>
+
+    <string name="cancel">Anuluj</string>
+    <string name="action_add_to_fav">Dodaj do ulubionych</string>
+
+    <!--activity label-->
+    <string name="recipes">Przepisy</string>
+    <string name="calculator">Kalkulator</string>
+    <string name="products">Produkty</string>
+    <string name="favourites">Ulubione</string>
+    <string name="search_recipes">Wyszukaj</string>
+    <string name="add_recipes">Dodaj przepis</string>
+
+    <!--products labels-->
+    <string name="vegetables">Warzywa</string>
+    <string name="fruits">Owoce</string>
+    <string name="others">Inne</string>
+    <string name="cereal">Produkty zbożowe</string>
+    <string name="dairy">Nabiał</string>
+    <string name="meat">Mięso</string>
+    <string name="sweets">Słodycze</string>
+
+    <!--recipes labels-->
+    <string name="main_course">Dania głowne</string>
+    <string name="soup">Zupy</string>
+    <string name="salad">Sałatki</string>
+    <string name="starter">Przystawki</string>
+    <string name="dessert">Deser</string>
+
+    <string name="update_ingredient">Edycja składnika</string>
+    <string name="add_ingredient">Dodaj składnik</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffd85435"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/recipes"
+
+            android:layout_marginTop="47dp"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_below="@+id/imageView1"
+            android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView5"
+                android:src="@drawable/products"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView2"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/favourites"
+                android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_below="@+id/imageView5"
+                android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+            <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/calculator"
+                    android:layout_marginLeft="50dp"
+                    android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" android:focusableInTouchMode="true"/>
+            <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/imageView4"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/search"
+                    android:layout_alignTop="@+id/imageView3" android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <!--<ImageView-->
+            <!--android:layout_width="200px"-->
+            <!--android:layout_height="200px"-->
+            <!--android:id="@+id/imageView3"-->
+            <!--android:src="@drawable/favourites"-->
+            <!--android:focusableInTouchMode="false"-->
+            <!--android:layout_toStartOf="@+id/imageView1" -->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"/>-->
+    <!--<ImageView-->
+            <!--android:layout_width="200px"-->
+            <!--android:layout_height="200px"-->
+            <!--android:id="@+id/imageView5"-->
+            <!--android:src="@drawable/favourites"-->
+            <!--android:layout_marginTop="70dp"-->
+            <!--android:layout_alignLeft="@+id/imageView3" android:layout_alignStart="@+id/imageView3"-->
+            <!--android:layout_below="@+id/imageView3"/>-->
+    <!--<ImageView-->
+            <!--android:layout_width="200px"-->
+            <!--android:layout_height="200px"-->
+            <!--android:id="@+id/imageView2"-->
+            <!--android:src="@drawable/favourites"-->
+            <!--android:layout_above="@+id/imageView5" android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true"/>-->
+    <!--<ImageView-->
+            <!--android:layout_width="200px"-->
+            <!--android:layout_height="200px"-->
+
+            <!--android:id="@+id/imageView4"-->
+            <!--android:src="@drawable/favourites"-->
+            <!--android:layout_alignTop="@+id/imageView5" android:layout_alignLeft="@+id/imageView2"-->
+            <!--android:layout_alignStart="@+id/imageView2"/>-->
+</RelativeLayout>

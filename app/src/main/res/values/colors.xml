@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="list_item_bg">#ffffff</color>
+    <color name="view_divider_color">#BABABA</color>
+    <color name="action_bar_color">#330000</color>
+    <color name="act_bar_tab_color">#EDEDED</color>
+
+</resources>

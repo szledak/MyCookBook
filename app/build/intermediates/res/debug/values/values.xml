@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Programowanie/Android/AndroidStudioProjects/MyCookBook/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="act_bar_tab_color">#EDEDED</color>
+    <color name="action_bar_color">#330000</color>
+    <color name="list_item_bg">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="view_divider_color">#BABABA</color>
+    <!-- From: file:/D:/Programowanie/Android/AndroidStudioProjects/MyCookBook/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/Programowanie/Android/AndroidStudioProjects/MyCookBook/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_add_to_fav">Dodaj do ulubionych</string>
+    <string name="action_edit">Edytuj</string>
+    <string name="action_help">Pomoc</string>
+    <string name="action_new">Dodaj</string>
+    <string name="action_remove">Usuń</string>
+    <string name="action_remove_all">Usuń wszystko</string>
+    <string name="action_save">Zapisz</string>
+    <string name="action_search">Search</string>
+    <string name="add">Dodaj</string>
+    <string name="add_ingredient">Dodaj składnik</string>
+    <string name="add_prod">Dodaj produkt</string>
+    <string name="add_recipes">Dodaj przepis</string>
+    <string name="app_name">MyCookBook</string>
+    <string name="calculator">Kalkulator</string>
+    <string name="cancel">Anuluj</string>
+    <string name="cereal">Produkty zbożowe</string>
+    <string name="dairy">Nabiał</string>
+    <string name="dessert">Deser</string>
+    <string name="favourites">Ulubione</string>
+    <string name="fruits">Owoce</string>
+    <string name="kcal">kcal</string>
+    <string name="main_course">Dania głowne</string>
+    <string name="meat">Mięso</string>
+    <string name="name">Nazwa</string>
+    <string name="others">Inne</string>
+    <string name="products">Produkty</string>
+    <string name="recipes">Przepisy</string>
+    <string name="reset">Reset</string>
+    <string name="salad">Sałatki</string>
+    <string name="save">Zapisz</string>
+    <string name="search_hint">Szukaj przepisu</string>
+    <string name="search_recipes">Wyszukaj</string>
+    <string name="soup">Zupy</string>
+    <string name="starter">Przystawki</string>
+    <string name="sweets">Słodycze</string>
+    <string name="update">Zapisz</string>
+    <string name="update_ingredient">Edycja składnika</string>
+    <string name="update_prod">Edycja produktu</string>
+    <string name="vegetables">Warzywa</string>
+</resources>

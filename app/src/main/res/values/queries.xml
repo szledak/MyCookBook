@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="get_vegetable">SELECT prod._ID, prod.Nazwa, kcal, prod.TypProduktu, typ._ID, typ.TypProduktu-->
+        <!--FROM PRODUKTY prod, TYP_PRODUKTU typ WHERE prod.TypProduktu = typ.TypProduktu AND prod.TypProduktu = 'Warzywo' ORDER BY prod.Nazwa</string>-->
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:background="@color/list_item_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ilość: "
+                android:textColor="#330000"
+                android:id="@+id/textv_kcal"
+
+                android:layout_alignParentTop="false" android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="true" android:layout_below="@+id/textv_name"
+                android:layout_marginLeft="10dp" android:layout_marginTop="10dp"/>
+        <AutoCompleteTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/autoCompleteTextView"
+                android:layout_alignBottom="@+id/textv_name"
+                android:layout_toRightOf="@+id/textv_name"
+                android:layout_toEndOf="@+id/textv_name"
+                android:text="Nazwa produktu" android:layout_marginLeft="10dp" android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true" android:layout_alignParentEnd="true"
+                android:inputType="textCapSentences" android:hint="Nazwa produktu..."/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Nazwa: "
+                android:textColor="#330000"
+                android:id="@+id/textv_name"
+                 android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Jednostka:"
+                android:id="@+id/textView"
+                android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+                android:layout_below="@+id/textv_kcal" android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp" android:textColor="#330000"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText2" android:layout_above="@+id/textView"
+                android:layout_toRightOf="@+id/textv_name" android:layout_toEndOf="@+id/textv_name"
+                android:hint="ilość..."/>
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner" android:layout_below="@+id/textv_kcal"
+                android:layout_toRightOf="@+id/textView" android:layout_toEndOf="@+id/textView"/>
+
+        <LinearLayout
+                android:id="@+id/layout_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+            <Button
+                    android:id="@+id/button_add"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:text="@string/add" />
+
+            <Button
+                    android:id="@+id/button_reset"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/reset" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/D:/Programowanie/Android/AndroidStudioProjects/MyCookBook/app/src/main/res/layout/fragment_add_ing.xml -->

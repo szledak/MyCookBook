@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/list_item_bg"
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Wybierz typ dania:"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#330000"
+                android:id="@+id/textView3" android:layout_toLeftOf="@+id/spinner"
+                android:layout_toStartOf="@+id/spinner"/>
+
+        <Spinner
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:textColor="#330000"
+                android:layout_alignParentTop="true" android:layout_alignRight="@+id/textIngTitle"
+                android:layout_alignEnd="@+id/textIngTitle" android:layout_above="@+id/textIngTitle"/>
+
+        <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:text="Podaj produkty:"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginTop="10dp"
+                 android:textSize="18sp"
+                 android:textColor="#330000"
+                 android:id="@+id/textIngTitle" android:layout_below="@+id/textView3" android:layout_alignParentLeft="true"
+                 android:layout_alignParentStart="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="1."
+                android:layout_marginTop="5dp"
+                android:textColor="#330000"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textView5" android:layout_below="@+id/textIngTitle" android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+        <AutoCompleteTextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:inputType="textCapSentences"
+                 android:hint="Produkt..."
+                 android:textColor="#330000"
+                 android:id="@+id/autoCompleteTextView" android:layout_below="@+id/textIngTitle"
+                 android:layout_toEndOf="@+id/textView5" android:layout_toRightOf="@+id/textView5"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="2."
+                android:layout_marginTop="5dp"
+                android:textColor="#330000"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textView6" android:layout_below="@+id/autoCompleteTextView"
+                android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+
+        <AutoCompleteTextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:inputType="textCapSentences"
+                 android:hint="Produkt..."
+                 android:textColor="#330000"
+                 android:id="@+id/autoCompleteTextView2" android:layout_below="@+id/autoCompleteTextView"
+                 android:layout_toRightOf="@+id/textView6" android:layout_toEndOf="@+id/textView6"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="3."
+                android:textColor="#330000"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textView7" android:layout_below="@+id/autoCompleteTextView2"
+                android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+        <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:hint="Produkt..."
+                android:textColor="#330000"
+                android:id="@+id/autoCompleteTextView3"
+                android:layout_below="@+id/autoCompleteTextView2"
+                android:layout_toRightOf="@+id/textView7" android:layout_toEndOf="@+id/textView7"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Wybierz rodzaj dania: "
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="#330000"
+                android:id="@+id/textRecTitle" android:layout_below="@+id/autoCompleteTextView3"
+                android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_below="@+id/textRecTitle"
+                android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+
+            <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_below="@+id/textRecTitle"
+                    android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+                    android:id="@+id/radioGroup">
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="danie wegetariańskie"
+                        android:textColor="#330000"
+                        android:id="@+id/radioButton"/>
+                <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="danie mięsne"
+                        android:textColor="#330000"
+                        android:id="@+id/radioButton2"/>
+            </RadioGroup>
+            <ImageView
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/ic_action_search1"
+                    android:layout_toEndOf="@+id/radioGroup"
+                    android:layout_alignBottom="@+id/radioGroup" android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Wyniki: "
+            android:layout_marginTop="10dp"
+            android:textColor="#330000"
+            android:id="@+id/textView4" android:layout_below="@+id/radioGroup" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/spinner" android:layout_toStartOf="@+id/spinner"/>
+
+            <ListView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
