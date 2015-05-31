@@ -41,7 +41,7 @@ public class ProdUpdateDialogFragment extends DialogFragment {
 
         Bundle bundle = this.getArguments();
 
-        product = (Product) bundle.getParcelable("selectedProduct"); // na to zmnieniono
+        product = (Product) bundle.getParcelable("selectedProduct");
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         LayoutInflater inflater = getActivity().getLayoutInflater();
